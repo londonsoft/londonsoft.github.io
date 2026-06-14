@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .section-min-height {
+        min-height: calc(100vh - 68px)
+    }
+
+    .toggle-btn {
+        /* Native CSS instead of @apply for v4 */
+        > div::before {
+            transform: translateY(0) rotate(45deg);
+        }
+        > div::after {
+            transform: translateY(0) rotate(-45deg);
+        }
+        > div {
+            background-color: transparent;
+            transform: rotate(720deg);
+        }
+    }
+}
