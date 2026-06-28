@@ -17,7 +17,7 @@ function HomePage() {
             So you can focus on growth instead of infrastructure.
           </p>
         </article>
-        <img className="w-1/2" src="/img/coding.png" alt="Londonsoft Dab" />
+        <img className="w-1/2" src="./img/coding.png" alt="Londonsoft Dab" />
       </section>
 
       <section className="mb-12 p-6 text-xl">
@@ -45,7 +45,7 @@ function HomePage() {
         </h2>
         <ul className="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
           <li className="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
-            <img src="/img/tier1.png" alt="Explorer" className="mb-6 w-1/2" />
+            <img src="./img/tier1.png" alt="Explorer" className="mb-6 w-1/2" />
             <h3 className="text-center text-3xl text-slate-900 dark:text-white">Startup Tier</h3>
             <div className="mt-2 text-center text-slate-500 dark:text-slate-400 sm:block">
               <p className="text-3xl">$10,000</p>
@@ -55,7 +55,7 @@ function HomePage() {
             </div>
           </li>
           <li className="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
-            <img src="/img/tier2.png" alt="Adventurer" className="mb-6 w-1/2" />
+            <img src="./img/tier2.png" alt="Adventurer" className="mb-6 w-1/2" />
             <h3 className="text-center text-3xl text-slate-900 dark:text-white">Business Tier</h3>
             <div className="mt-2 text-center text-slate-500 dark:text-slate-400 sm:block">
               <p className="text-3xl">$50,000</p>
@@ -65,7 +65,7 @@ function HomePage() {
             </div>
           </li>
           <li className="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
-            <img src="/img/tier3.png" alt="Infinity" className="mb-6 w-1/2" />
+            <img src="./img/tier3.png" alt="Infinity" className="mb-6 w-1/2" />
             <h3 className="text-center text-3xl text-slate-900 dark:text-white">Enterprise Tier</h3>
             <div className="mt-2 text-center text-slate-500 dark:text-slate-400 sm:block">
               <p className="text-3xl">Contact Sales</p>
