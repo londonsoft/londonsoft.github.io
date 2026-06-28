@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>404 — Londonsoft</title>
+    <script>
+      // Preserve the original path by constructing a hash and redirecting
+      (function () {
+        try {
+          var path = location.pathname + location.search;
+          // Redirect into the SPA, preserving path as hash
+          location.replace('/index.html#' + path);
+        } catch (e) {
+          location.replace('/index.html');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting to the app...
+  </body>
+</html>

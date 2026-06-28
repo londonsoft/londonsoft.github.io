@@ -1,19 +1,23 @@
 # Londonsoft Inc.
 
-Main full-stack website for Londonsoft.ca, built with Tailwind and TypeScript.
+Main full-stack website for Londonsoft.ca, now built with React, TypeScript, and Tailwind.
 
-## Available Scripts
+## Local Development
 
-In the project directory, you can run:
+From the project directory, run:
 
-### Run Live locally (Button at the bottom of VS Code)
+### `npm run dev`
 
-Runs the live server in http://127.0.0.1:5500
+Starts the Vite development server for local preview.
 
 ### `npm run build`
 
-Compiles the TypeScript source in `src/` into JavaScript in `build/js/`.
+Builds the production bundle for deployment.
+
+### `npm run preview`
+
+Previews the production build locally.
 
 ### `npm run prettier`
 
-Fixes formatting of HTML files
+Formats the HTML files in the build output.
