@@ -1,10 +1,11 @@
 {
   "name": "londonsoft",
-  "version": "0.1.1",
-  "description": "",
-  "main": "tailwind.config.js",
+  "version": "0.1.2",
+  "description": "Londonsoft website built with Tailwind and TypeScript",
+  "main": "tailwind.config.ts",
   "scripts": {
-    "tailwind": "npx @tailwindcss/cli@latest -i ./src/input.css -o ./build/css/style.css --watch",
+    "dev": "npm run build && npx @tailwindcss/cli@latest -i ./src/input.css -o ./build/css/style.css --config ./tailwind.config.ts --watch",
+    "build": "tsc --project tsconfig.json",
     "prettier": "npx prettier --write ./build/*.html"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.1",
-    "prettier-plugin-tailwindcss": "^0.1.13"
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "typescript": "^6.0.3"
   }
 }

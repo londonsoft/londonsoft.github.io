@@ -1,6 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./build/*.html", "./build/js/*.js"],
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
+  content: ['./build/*.html', './build/js/*.{js,ts}'],
   theme: {
     extend: {
       colors: {
@@ -8,11 +9,11 @@ module.exports = {
           light: '#fef4e4',
           DEFAULT: '#ffefd5',
           dark: '#fee5bc',
-        }
+        },
       },
       screens: {
-        'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
-        'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
+        widescreen: { raw: '(min-aspect-ratio: 3/2)' },
+        tallscreen: { raw: '(max-aspect-ratio: 13/20)' },
       },
       keyframes: {
         'open-menu': {
@@ -23,8 +24,10 @@ module.exports = {
       },
       animation: {
         'open-menu': 'open-menu 0.5s ease-in-out forwards',
-      }
+      },
     },
   },
   plugins: [],
-}
+};
+
+export default config;
