@@ -1,5 +1,6 @@
 import { HashRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import './index.css';
 import Layout from './components/Layout';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
