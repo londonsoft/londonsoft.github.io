@@ -9,8 +9,8 @@ function ContactPage() {
       </p>
       <p className="mt-4 text-lg text-slate-700 dark:text-slate-400">
         Email:{' '}
-        <a href="mailto:blake.lmj@gmail.com" className="font-medium text-blue-700 underline underline-offset-4 dark:text-blue-300">
-          blake.lmj@londonsoft.ca
+        <a href="mailto:blake.lmj@icloud.com" className="font-medium text-blue-700 underline underline-offset-4 dark:text-blue-300">
+          blake@londonsoft.ca
         </a>
       </p>
     </section>
